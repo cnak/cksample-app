@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Caption> matches snapshots size "l" 1`] = `
+<Text
+  size="l"
+  style={
+    Array [
+      Object {
+        "color": "#6F777B",
+        "fontFamily": "Helvetica",
+        "fontSize": 16,
+        "marginBottom": 5,
+      },
+    ]
+  }
+>
+  Label me
+</Text>
+`;
+
+exports[`<Caption> matches snapshots size "m" 1`] = `
+<Text
+  size="m"
+  style={
+    Array [
+      Object {
+        "color": "#6F777B",
+        "fontFamily": "Helvetica",
+        "fontSize": 16,
+        "marginBottom": 0,
+      },
+    ]
+  }
+>
+  Label me
+</Text>
+`;
+
+exports[`<Caption> matches snapshots size "xl" 1`] = `
+<Text
+  size="xl"
+  style={
+    Array [
+      Object {
+        "color": "#6F777B",
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "marginBottom": 5,
+      },
+    ]
+  }
+>
+  Label me
+</Text>
+`;

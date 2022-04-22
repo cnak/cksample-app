@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorIsland> matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "#B10E1E",
+        "borderStyle": "solid",
+        "borderWidth": 4,
+        "marginBottom": 15,
+        "paddingBottom": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+      },
+    ]
+  }
+>
+  <Text
+    accessibilityLiveRegion="assertive"
+    style={
+      Array [
+        Object {
+          "color": "#0B0C0C",
+          "fontFamily": "Helvetica",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "lineHeight": 25.000080000000004,
+          "marginBottom": 15,
+        },
+        Object {
+          "fontSize": 18,
+          "marginBottom": 0,
+        },
+      ]
+    }
+  >
+    There is a problem
+  </Text>
+</View>
+`;

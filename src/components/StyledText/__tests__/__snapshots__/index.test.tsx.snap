@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StyledText> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#0B0C0C",
+        "fontFamily": "Helvetica",
+        "fontSize": 16,
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;

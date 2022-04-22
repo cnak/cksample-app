@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Stripe Checkout Sample</title>
+    <meta name="description" content="A demo of Stripe Payment Intents"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body onload="myFunction">
+<div class="sr-root">
+</div>
+
+<script>
+    (function() {
+
+        var PUBLISHABLE_KEY = 'pk_test_51GuwmhBqBCa0EUwLXTpTFZKa1sKkvcobmNSxXpf9kkeFf25N8fTPsQz8O5P3zynqzhXYrs4uba7V3q5xoymvpveG00epjGW9HC';
+        var DOMAIN = window.location.origin;
+        var PRICE_ID = 'price_1GuzgABqBCa0EUwLlQ8MyoDx';
+
+        var stripe = Stripe(PUBLISHABLE_KEY);
+
+        var handleResult = function(result) {
+            if (result.error) {
+                var displayError = document.getElementById('error-message');
+                displayError.textContent = result.error.message;
+            }
+        };
+
+        stripe.redirectToCheckout({
+            mode: 'payment',
+            lineItems: [{ price: PRICE_ID, quantity: 1 }],
+            successUrl:
+                DOMAIN + '/assets/src/screen/PaymentScreen/success.html?session_id={CHECKOUT_SESSION_ID}',
+            cancelUrl: DOMAIN + '/canceled.html'
+        })
+            .then(handleResult);
+    })();
+</script>
+</body>
+</html>

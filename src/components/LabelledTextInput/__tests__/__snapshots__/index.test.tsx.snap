@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LabelledTextInput> matches snapshot 1`] = `
+<View
+  hasError={false}
+  showBorderOnError={true}
+  style={
+    Array [
+      Object {
+        "borderLeftColor": "#0B0C0C",
+        "borderLeftWidth": 0,
+        "marginBottom": 25,
+        "paddingLeft": 0,
+      },
+    ]
+  }
+>
+  <Text
+    accessibilityLabel="Label for input. Username"
+    style={
+      Array [
+        Object {
+          "color": "#0B0C0C",
+          "fontFamily": "Helvetica",
+          "fontSize": 16,
+          "lineHeight": 20,
+          "marginBottom": 10,
+        },
+      ]
+    }
+  >
+    Username
+  </Text>
+  <View
+    showFocus={false}
+    style={
+      Array [
+        Object {
+          "borderColor": "transparent",
+          "borderWidth": 3,
+          "width": "100%",
+        },
+      ]
+    }
+    width="100%"
+  >
+    <TextInput
+      accessibilityLabel="Input. Username"
+      allowFontScaling={true}
+      autoCompleteType="off"
+      autoCorrect={false}
+      label="Username"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      rejectResponderTermination={true}
+      showLabel={true}
+      spellCheck={false}
+      style={
+        Array [
+          Object {
+            "borderColor": "black",
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "fontSize": 16,
+            "height": 40,
+            "lineHeight": 20,
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+            "width": "100%",
+          },
+          Object {
+            "borderColor": "#0B0C0C",
+          },
+        ]
+      }
+      testID="TextInput"
+      underlineColorAndroid="transparent"
+      width="100%"
+    />
+  </View>
+</View>
+`;

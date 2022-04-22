@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CTAButton> matches snapshot 1`] = `
+<View
+  accessibilityLabel="Tap here"
+  accessibilityRole="button"
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#00823B",
+      "justifyContent": "center",
+      "lineHeight": 1.25,
+      "marginBottom": 60,
+      "marginLeft": 0,
+      "marginRight": 0,
+      "marginTop": 20,
+      "opacity": 1,
+      "paddingBottom": 8,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 8,
+      "shadowColor": "#003618",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 0,
+    }
+  }
+  testID="CTAButton:Title of Page"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Helvetica",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    Tap here
+  </Text>
+</View>
+`;

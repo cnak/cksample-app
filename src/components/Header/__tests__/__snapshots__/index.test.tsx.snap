@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header> matches snapshots cant go back 1`] = `
+Array [
+  <View
+    height={20}
+    style={
+      Array [
+        Object {
+          "height": 20,
+        },
+      ]
+    }
+  />,
+  <View
+    canGoBack={false}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0B0C0C",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "paddingBottom": 15,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 15,
+        },
+      ]
+    }
+  >
+    <Text
+      accessibilityLabel="Header"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Helvetica",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginLeft": -15,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+          Object {
+            "marginLeft": 0,
+          },
+        ]
+      }
+    >
+      Header example
+    </Text>
+  </View>,
+]
+`;
+
+exports[`<Header> matches snapshots sign-in screen scenario 1`] = `
+Array [
+  <View
+    height={20}
+    style={
+      Array [
+        Object {
+          "height": 20,
+        },
+      ]
+    }
+  />,
+  <View
+    canGoBack={false}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0B0C0C",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "paddingBottom": 15,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 15,
+        },
+      ]
+    }
+  >
+    <Text
+      accessibilityLabel="Header"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Helvetica",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginLeft": -15,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+          Object {
+            "marginLeft": 0,
+          },
+        ]
+      }
+    >
+      Header example
+    </Text>
+  </View>,
+]
+`;

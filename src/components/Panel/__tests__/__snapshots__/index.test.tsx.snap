@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Panel> <PanelSubTitle> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#FFFFFF",
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 27,
+        "marginBottom": 15,
+        "textAlign": "center",
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;
+
+exports[`<Panel> <PanelTitle> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#FFFFFF",
+        "fontFamily": "Helvetica",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "lineHeight": 35,
+        "marginBottom": 20,
+        "textAlign": "center",
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;
+
+exports[`<Panel> matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#28A197",
+        "borderColor": "transparent",
+        "borderStyle": "solid",
+        "borderWidth": 5,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 10,
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography: <BR> matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 16,
+        "paddingBottom": 15,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 15,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Typography: <BulletPoint> matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#0B0C0C",
+          "fontFamily": "Helvetica",
+          "fontSize": 16,
+          "lineHeight": 20,
+          "marginBottom": 15,
+        },
+      ]
+    }
+  >
+    •
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#0B0C0C",
+          "fontFamily": "Helvetica",
+          "fontSize": 16,
+          "lineHeight": 20,
+          "marginBottom": 15,
+        },
+        Object {
+          "flex": 1,
+          "paddingLeft": 10,
+        },
+      ]
+    }
+  >
+    This is a test
+  </Text>
+</View>
+`;
+
+exports[`Typography: <H1> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#0B0C0C",
+        "fontFamily": "Helvetica",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "lineHeight": 35,
+        "marginBottom": 20,
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;
+
+exports[`Typography: <H2> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#0B0C0C",
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "lineHeight": 25.000080000000004,
+        "marginBottom": 15,
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;
+
+exports[`Typography: <H3> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#0B0C0C",
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 27,
+        "marginBottom": 15,
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;
+
+exports[`Typography: <H4> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#0B0C0C",
+        "fontFamily": "Helvetica",
+        "fontSize": 16,
+        "lineHeight": 30,
+        "marginBottom": 15,
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;
+
+exports[`Typography: <Label> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#0B0C0C",
+        "fontFamily": "Helvetica",
+        "fontSize": 16,
+        "lineHeight": 20,
+        "marginBottom": 10,
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;
+
+exports[`Typography: <Link> matches snapshot 1`] = `
+<View
+  accessibilityHint=""
+  accessibilityLabel="Add Something."
+  accessibilityRole="link"
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#005EA5",
+          "fontFamily": "Helvetica",
+          "fontSize": 16,
+          "lineHeight": 30,
+          "marginBottom": 5,
+          "textDecorationColor": "black",
+          "textDecorationLine": "underline",
+          "textDecorationStyle": "solid",
+        },
+      ]
+    }
+  >
+    Add Something
+  </Text>
+</View>
+`;
+
+exports[`Typography: <P> matches snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#0B0C0C",
+        "fontFamily": "Helvetica",
+        "fontSize": 16,
+        "lineHeight": 20,
+        "marginBottom": 15,
+      },
+    ]
+  }
+>
+  This is a test
+</Text>
+`;

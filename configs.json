@@ -1,0 +1,9 @@
+{
+  "OIDC": {
+    "DISCOVERY_ENDPOINT": "https://etmobiletechdemo.b2clogin.com/etmobiletechdemo.onmicrosoft.com/B2C_1_Default/v2.0",
+    "CLIENT_ID": "ad8ff4a5-84e0-4c5b-beba-0b1161e4f7e3"
+  },
+  "API": {
+    "SF_DECLARATIONS_ENDPOINT": "https://sf-declarations-api.herokuapp.com"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "expo": {
+        "name": "CKSampleApp-react-native-prototype",
+        "slug": "CKSampleApp-react-native-prototype",
+        "sdkVersion": "37.0.0",
+        "platforms": ["ios"],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash-screen.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#444a4f"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "biometrics-app",
+            "buildNumber": "1",
+            "supportsTablet": true,
+            "requireFullScreen": true,
+            "backgroundColor": "#444a4f",
+            "usesAppleSignIn": false,
+            "infoPlist": {
+                "NSFaceIDUsageDescription": "To sign into the application, a form of authentication"
+            }
+        },
+        "android": {
+            "package": "uk.gov.hmoua.app",
+            "versionCode": 1
+        },
+        "scheme": "CKSampleApp-react-native-prototype"
+    }
+}
